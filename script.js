@@ -12,7 +12,7 @@ const percentInterval = setInterval(() => {
     if (percent >= 100) {
         clearInterval(percentInterval);
         setTimeout(() => {
-            window.location.href = "https://www.edcelltech.com.br";
+            window.location.href = "https://www.edcelltech.com.br/index.html";
         }, 800);
     }
 }, 100);
